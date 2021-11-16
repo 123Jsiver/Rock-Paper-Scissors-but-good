@@ -1,0 +1,23 @@
+body {
+  background-color: #A5F2A7;
+}
+
+#Rock {
+  background-color: #753F01;
+}
+
+#Paper {
+  background-color: #E6F2E7;
+}
+
+#Scissors {
+  background-color: #AB9479;
+}
+
+#User {
+  background-color: #857284;
+}
+
+#Computer {
+  background-color: #857284;
+}
