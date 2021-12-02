@@ -80,20 +80,27 @@ function updateScore(winner)
   if(winner == "user")
   {
     userScore++;
+    document.getElementById("userVicRoys").innerHTML = userScore;
   }
   else
   {
     compScore++;
+    document.getElementById("compVicRoys").innerHTML = compScore;
   }
   // increment user or comp score base on round winner
   // update score on screen
   winner++;
-  console.log(compScore + " : " + userScore);
+  //console.log(userScore + " : " + compScore);
 }
 
 //Reset Score
 function resetScore()
 {
+     userScore = 0;
+     compScore = 0;
+    document.getElementById("userVicRoys").innerHTML = userScore;
+    document.getElementById("compVicRoys").innerHTML = compScore;
+  //console.log(userScore + " : " + compScore);
   // set user and comp score to 0
   // update score on screen
 }
